@@ -1,0 +1,119 @@
+html, body, *{
+    font-size: 10px;
+    box-sizing:border-box ;
+    margin: 0;
+    padding: 0;
+}
+
+
+.Roboto{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.hero__content{
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 7rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .hero h2 {
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+ }
+.hero p {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero__button {
+    margin:2rem;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    width: 15rem;
+    border-radius: 1rem;
+    border: none;
+    padding: 1rem 2rem;
+    border: 1px solid #fcd191;
+}
+
+.intro {
+    background-color: #fcd191;
+    color: #242725;
+    padding:8rem 5rem;
+}
+
+.intro__content {
+    max-width: 90rem;
+    margin: auto;
+}
+
+.intro h2 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    margin-top:3rem;
+}
+
+.intro p {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.intro ul {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.intro li {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.intro ol {
+    padding: 0 4rem;
+}
+
+.meme{
+    background-color: #242725;
+    color:#fcd191;
+    padding:5rem;
+    border-radius:1rem;
+    text-align: center;
+    margin: 8rem 0;
+}
+
+.meme p {
+    font-size:2rem;
+}
+
+.meme h3 {
+    font-size:4rem;
+}
+.meme img {
+    width: 100%;
+    max-width: 40rem;
+    height: auto;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+
+.navbar {
+    background-color: #fcd191;
+    padding: 2rem 5rem;
+    text-align: center;
+}
+.navbar a {
+    color: #916015;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 2rem;
+}
